@@ -1,0 +1,36 @@
+body {
+  font-size: 2em;
+  font-family: 'Exo 2', sans-serif;
+  font-family: 'Rampart One', cursive;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
+input[type=checkbox] {
+  transform: scale(2);
+  padding: auto;
+  margin-left: none;
+}
+
+label {
+  color:rgb(242, 255, 0);
+
+}
+#homer {
+  display: none;
+}
+
+#marge {
+  display: none;
+}
+
+#bart {
+  display: none;
+}
+
+#lisa {
+  display: none;
+}
+
+#maggie {
+  display: none;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Rampart+One&display=swap" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Celeb Quiz</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Simpsons Match!</em></h1>
+    <form id="celebform" novalidate>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="age">Age</label>
+          <input type="number" class="form-control" id="age" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-3 mb-3">
+          <label for="gender">Gender</label>
+          <select class="custom-select" id="gender" required>
+            <option selected disabled value="">Choose...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid option.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Aye Carumba!
+          </label>
+          <div class="invalid-feedback">
+            You must want to know before submitting.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-warning" type="submit">Which Simpson are you?</button>
+    </form>
+
+    <div id="homer">
+      <p>image/text of HOMER</p>
+    </div>
+    <div id="marge">
+      <p>image/text of MARGE</p>
+    </div>
+
+    <div id="bart">
+      <p>image/text of BART</p>
+    </div>
+    <div id="lisa">
+      <p>image/text of LISA</p>
+    </div>
+    <div id="maggie">
+      <p>image/text of MAGGIE</p>
+    </div>
+  </div>
+</body>
+
+</html>
